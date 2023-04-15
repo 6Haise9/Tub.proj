@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");
+
+.table td {
+  background: #ffe4c4;
+}
+
+.table {
+  width: 100%;
+  font-family: "Delicious Handrawn", cursive;
+  font-weight: normal;
+  font-size: 1.2em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.ard {
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("431-5000x3334.jpg");
+  background-repeat: no-repeat;
+
+  background-position: center center;
+
+  background-attachment: fixed;
+
+  -webkit-background-size: cover;
+
+  -moz-background-size: cover;
+
+  -o-background-size: cover;
+
+  background-size: cover;
+
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+h1 {
+  color: #ffe4c4;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5));
+  font-family: "Delicious Handrawn", cursive;
+  font-size: 2.1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  color: #ffe4c4;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5));
+  font-family: "Delicious Handrawn", cursive;
+  font-size: 1.9em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+h3 {
+  color: #ffe4c4;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5));
+  font-family: "Delicious Handrawn", cursive;
+  font-size: 1.8em;
+  font-weight: normal;
+  text-align: center;
+}
+
+h4 {
+  color: #ffe4c4;
+  font-family: "Delicious Handrawn", cursive;
+  font-size: 1.7em;
+  font-weight: normal;
+  margin-left: 20px;
+}
+
+.colortext {
+  color: rgba(249, 186, 70, 0.998);
+}
+
+.colorexamples {
+  color: rgb(157, 86, 15);
+}
+
+.sss {
+  margin-bottom: -30px;
+}
+
+.ccc {
+  margin-top: -20px;
+}
+
+li {
+  list-style: outside;
+}

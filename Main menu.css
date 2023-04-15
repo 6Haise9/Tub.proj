@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("luke-chesser-KR2mdHJ5qMg-unsplash.jpg");
+  background-repeat: no-repeat;
+
+  background-position: center center;
+
+  background-attachment: fixed;
+
+  -webkit-background-size: cover;
+
+  -moz-background-size: cover;
+
+  -o-background-size: cover;
+
+  background-size: cover;
+
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+h1 {
+  color: #ffe4c4;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5));
+  font-family: "Delicious Handrawn", cursive;
+  font-size: 2.1em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.card {
+  border-radius: 3em;
+  text-align: center;
+  padding: 1em;
+  color: #ffe4c4;
+  font-family: "Delicious Handrawn", cursive;
+  font-weight: normal;
+}
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.card img {
+  border-radius: 5em;
+  width: 30%;
+  margin: auto;
+}
+
+.card-title {
+  font-size: 1.9em;
+}
+
+.card-text {
+  font-size: 1.7em;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+h5 {
+  color: #ffe4c4;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5));
+  font-family: "Delicious Handrawn", cursive;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.but {
+  min-width: 100px;
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5));
+  font-family: "Delicious Handrawn", cursive;
+  color: #ffe4c4;
+  padding: 8px 16px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.but:hover {
+  background: black;
+}
+
+.but:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #ffe4c4;
+}
